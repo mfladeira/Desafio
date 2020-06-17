@@ -1,0 +1,41 @@
+.post-container {
+    width: 100%;
+    max-width: 1000px;
+    padding: 15px;
+    margin: 10px auto;
+}
+header {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    color: rgb(219, 219, 219);
+    font-size: 30px;
+}
+.post-container ul li {
+    margin-top: 8px;
+    background-color: rgb(235, 235, 235);
+    min-width: 700px;
+    padding: 15px 5px;
+    border-radius: 8px;
+    line-height: 25px;
+    list-style: none;
+}
+
+.post-container a {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    cursor: pointer;
+    background-color: rgb(209, 6, 6);
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 7px 10px;
+}
+.post-container a:hover {
+    opacity: 0.8;
+}

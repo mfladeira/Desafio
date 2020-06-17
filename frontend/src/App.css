@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: -webkit-linear-gradient(to right, #8d8581, #3d2f26);
+  background: linear-gradient(to right, #8d8581, #3d2f26);
+}
+body,
+select,
+button {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
